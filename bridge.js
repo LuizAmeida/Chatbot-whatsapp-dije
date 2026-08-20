@@ -15,7 +15,8 @@ async function startBot() {
     const sock = makeWASocket({
         auth: state,
         logger: pino({ level: 'silent' }),
-        syncFullHistory: false
+        syncFullHistory: false,
+        qrTimeout: 180000 // QR Code válido por 3 minutos (180000 ms)
     });
 
     sock.ev.on('creds.update', saveCreds);
@@ -36,7 +37,7 @@ async function startBot() {
         const { connection, lastDisconnect, qr } = update;
 
         if (qr) {
-            console.log('\n--- ESCANEIE O QR CODE COM SEU WHATSAPP ---\n');
+            console.log('\n--- ESCANEIE O QR CODE COM SEU WHATSAPP (Válido por 3 minutos) ---\n');
             qrcode.generate(qr, { small: true });
         }
 
