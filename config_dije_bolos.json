@@ -1,0 +1,26 @@
+{
+    "nome_estabelecimento": "Dije Bolos",
+    "nome_proprietaria": "De Jesus",
+    "whatsapp_proprietaria": "5585996945621",
+    "localizacao_bairro": "Granja Lisboa, Fortaleza - CE",
+    "endereco_retirada": "Rua Paulino Rocha, 1501, próximo ao Anali Supermercados, Granja Lisboa, Fortaleza - CE",
+    "regra_endereco": "ATENÇÃO: Só mostre o endereço completo de retirada (Rua Paulino Rocha 1501, próximo ao Anali Supermercados) se o cliente disser explicitamente que vai buscar ou retirar no local. Nunca informe o endereço sem necessidade.",
+    "horario_funcionamento": "Segunda a Sábado das 08:00 às 18:00",
+    "formas_pagamento": "Dinheiro, Pix, Cartão de Crédito e Cartão de Débito",
+    "politica_entrega": "Entrega gratuita dentro do bairro Granja Lisboa. Fora do bairro, é cobrada uma taxa de deslocamento a ser verificada.",
+    "politica_agendamento": "Pedidos de bolos sob encomenda ou pronta entrega conforme disponibilidade.",
+    "servicos_e_precos": [
+        {
+            "servico": "Bolo Simples (Batata, Cenoura, Fofo, Mesclado, Mole, Milho, Formigueiro ou Laranja)",
+            "preco": "R$ 15,00 (Forma tamanho 18) | R$ 20,00 (Forma tamanho 20)",
+            "duracao": "Pronta entrega / Sob encomenda",
+            "descricao": "Sabores tradicionais e caseiros deliciosos."
+        },
+        {
+            "servico": "Bolo com Calda de Chocolate (Fofo, Cenoura, Laranja, Mesclado ou Formigueiro)",
+            "preco": "R$ 18,00 (Forma tamanho 18) | R$ 25,00 (Forma tamanho 20)",
+            "duracao": "Pronta entrega / Sob encomenda",
+            "descricao": "Bolo coberto com deliciosa calda de chocolate especial."
+        }
+    ]
+}
